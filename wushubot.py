@@ -1,7 +1,7 @@
 from slackclient import SlackClient
 import time
 
-slack_client=SlackClient("xoxb-291128787859-Km2wFHBUjzMxJWEJZ9spLWx0")
+slack_client=SlackClient(<<enter token>>)
 
 def slackConnect():
 	return slack_client.rtm_connect()
