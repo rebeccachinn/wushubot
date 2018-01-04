@@ -1,7 +1,7 @@
 from slackclient import SlackClient
 import time
 
-slack_client=SlackClient("xoxb-291128787859-ih4VB21M7uTyl4aOXvEJnJ07")
+slack_client=SlackClient(<<<insert token here>>>)
 
 
 responses={"practice1":"Practice’s are held 3-5 on Saturdays, and 8-10 on Mondays and Thursdays. Check the #practicelocation channel for the location, usually announced ~15 minutes before practice. ",
